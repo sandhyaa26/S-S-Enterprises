@@ -11,8 +11,9 @@ const R = "#C1121F", C = "#20262D", S = "#8A939E", GLOW = "#FF7A3C";
 
 /* Reusable industrial scene used for heroes / media panels.
    A stylised furnace glow + hot SiC elements behind a technical grid. */
+let _sceneSeq = 0;
 export function scene(opts = {}) {
-  const id = "sc" + Math.random().toString(36).slice(2, 7);
+  const id = "sc" + (++_sceneSeq);
   const label = opts.label || "High-temperature industrial furnace scene";
   return `<svg class="scene" viewBox="0 0 800 520" role="img" aria-label="${label}" preserveAspectRatio="xMidYMid slice">
   <defs>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="82%" cy="90%" r="70%">
+      <stop offset="0%" stop-color="#FF7A3C"/><stop offset="45%" stop-color="#8C1E12"/><stop offset="100%" stop-color="#14181C"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#14181C"/>
+  <rect width="1200" height="630" fill="url(#g)" opacity="0.55"/>
+  <g stroke="#ffffff" stroke-opacity="0.08"><g>
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200"/>
+    <path d="M100 0V630M300 0V630M500 0V630M700 0V630M900 0V630M1100 0V630"/>
+  </g></g>
+  <text x="80" y="250" font-family="Georgia, serif" font-weight="700" font-size="96" fill="#C1121F">SS <tspan font-weight="500" fill="#ffffff">Enterprises</tspan></text>
+  <text x="84" y="330" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#ffffff">High-Temperature Industrial Heating &amp; Ceramic Solutions</text>
+  <text x="84" y="392" font-family="Inter, sans-serif" font-weight="400" font-size="27" fill="#B7BFC7">Silicon carbide heating elements · Aluminium furnaces · Technical ceramics</text>
+  <g transform="translate(84,470)">
+    <rect width="300" height="58" rx="8" fill="#C1121F"/>
+    <text x="150" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="24" fill="#fff">Request a Quote</text>
+  </g>
+  <text x="1120" y="590" text-anchor="end" font-family="Inter, sans-serif" font-size="22" fill="#8A939E">Made in India · Supply &amp; export</text>
+</svg>
